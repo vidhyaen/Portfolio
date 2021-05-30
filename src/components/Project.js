@@ -1,89 +1,155 @@
 import React from "react";
-import { Card} from "react-bootstrap";
-import { useState } from "react";
+import { Card } from "react-bootstrap";
 
 function Project() {
-  const [displayproject, setproject] = useState(false);
   return (
     <div>
-      <button
-        onClick={() => setproject(!displayproject)}
-        className="btn btn-success mt-5"
-      >
-        My projects
-      </button>
-      {displayproject && (
-        <div className="row" data-aos="fade-down-right">
-          <div className="col-12 col-md-2"></div>
-
-          <div className="col-12 col-md-10  text-dark">
-            <Card
-              style={{ alignItems: "center", backgroundColor: "" }}
-              className="mt-5 md sm"
-            >
-              <h1 className="text-dark">Projects</h1>
-              <h5 class="text-center card2" style={{ color: "red" }}>
-                <b> Chemi product</b>
-              </h5>
-
-              <h5 class="text-center card2" style={{ color: "blue" }}>
-                Front end: Html,W3-css,Js
-              </h5>
-              <h5 class="text-center card2" style={{ color: "blue" }}>
-                Back end: php,mysql
-              </h5>
-              <h5 class="text-center card2" style={{ color: "red" }}>
-                <b> Luxury botique website</b>
-              </h5>
-
-              <h5 class="text-center card2" style={{ color: "blue" }}>
-                Front end: Html,Css
-              </h5>
-
-              <h5 class="text-center card2" style={{ color: "blue" }}>
-                Front end:bootstrap,Js
-              </h5>
-              <h5 class="text-center card2" style={{ color: "blue" }}>
-                Back end: laravel,MySql
-              </h5>
-              <h5 class="text-center card2" style={{ color: "red" }}>
-                <b> Pokieman Api</b>
-              </h5>
-
-              <h5 class="text-center card2" style={{ color: "blue" }}>
-                Front end:React js
-                <a href="https://pokemon-vidhya.netlify.app/" target="_blank" rel="noreferrer">
+      <div data-aos="fade-down-right">
+        <h1 className="text-white py-3">Projects</h1>
+        <div className="row mx-2 mt-3">
+          <div className="col-12 col-md-4 text-center py-3 transparent">
+            <Card>
+              <div className="text-center">
+                <h5 class="text-center card2" style={{ color: "red" }}>
+                  <b> Chemi product</b>
+                </h5>
+              </div>
+              <div className=" text-danger">
+                <h5 class="text-center card2" style={{ color: "blue" }}>
+                  Html,W3-css,Js
+                </h5>
+              </div>
+              <div className=" text-danger">
+                <h5 class="text-center card2" style={{ color: "blue" }}>
+                  php,MySql
+                </h5>
+              </div>
+              <div className=" text-danger">
+                <a
+                  href="https://github.com/vidhyaen/chemiproduct"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-secondary mb-3"
+                >
                   {" "}
-                  click here
+                  Github
                 </a>
-              </h5>
-              <h5 class="text-center card2" style={{ color: "red" }}>
-                <b>
-                  Consumer product preference prediction towards online shopping
-                </b>
-              </h5>
+              </div>
+            </Card>
+          </div>
+          <div className="col-12 col-md-4 text-center my-3 transparent">
+            <Card>
+              <div className="text-center">
+                <h5 class="text-center card2" style={{ color: "red" }}>
+                  <b>Luxury boutique</b>
+                </h5>
+              </div>
+              <div className=" text-danger">
+                <h5 class="text-center card2" style={{ color: "blue" }}>
+                  Html,CSS,Bootstrap
+                </h5>
+              </div>
+              <div className=" text-danger">
+                <h5 class="text-center card2" style={{ color: "blue" }}>
+                  Laravel,MySql
+                </h5>
+              </div>
+              <div className=" text-danger mb-3">
+                <a
+                  href="https://github.com/vidhyaen/luxury-boutique"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-secondary"
+                >
+                  {" "}
+                  Github
+                </a>
+              </div>
+            </Card>
+          </div>
 
-              <h5 class="text-center card2" style={{ color: "blue" }}>
-                Paper published in Iop conference
+          <div className="text-center col-12 col-md-4 my-3 transparent">
+            <Card>
+              <div className="text-center">
+                <h5 class="text-center card2" style={{ color: "red" }}>
+                  <b>
+                    Consumer product preference prediction towards online
+                    shopping
+                  </b>
+                </h5>
+              </div>
+              <div className=" text-danger">
+                <h5 class="text-center card2" style={{ color: "blue" }}>
+                  IOP paper Publish
+                </h5>
+              </div>
+              <div className=" text-danger ">
                 <a
                   href="https://iopscience.iop.org/article/10.1088/1757-899X/1055/1/012092/meta"
-                  className=" text-dark mx-3 text-dark mb-3"
-                  target="_blank" rel="noreferrer"
+                  className=" text-dark text-dark mb-4 btn btn-secondary"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  link
+                  Paper link
                 </a>
-              </h5>
-              <h5 class="text-center card2" style={{ color: "red" }}>
-                <b> Portfolio management</b>
-              </h5>
-
-              <h5 class="text-center card2" style={{ color: "blue" }}>
-                Front end:React js ,json server
-              </h5>
+              </div>
             </Card>
           </div>
         </div>
-      )}
+        <div className="mx-2 mt-3 row">
+          <div className="text-center my-3 col-12 col-md-4 transparent">
+            <Card>
+              <div className="text-center">
+                <h5 class="text-center card2" style={{ color: "red" }}>
+                  <b>Spin wheel game</b>
+                </h5>
+              </div>
+              <div className=" text-danger">
+                <h5 class="text-center card2" style={{ color: "blue" }}>
+                  Html,CSS,JS
+                </h5>
+              </div>
+              <div className=" text-danger">
+                <a
+                  href="https://vidhyaenspinwheel.000webhostapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-secondary mb-2"
+                >
+                  {" "}
+                  Project link
+                </a>
+              </div>
+            </Card>
+          </div>
+          <div className="text-center col-12 col-md-4 my-3 transparent">
+            <Card>
+              <div className="text-center">
+                <h5 class="text-center card2" style={{ color: "red" }}>
+                  <b> Pokemon Api</b>
+                </h5>
+              </div>
+              <div className=" text-danger">
+                <h5 class="text-center card2" style={{ color: "blue" }}>
+                  React js
+                </h5>
+              </div>
+              <div className=" text-danger">
+                <a
+                  href="https://pokemon-vidhya.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-secondary float-right mb-3"
+                >
+                  {" "}
+                  Project link
+                </a>
+              </div>
+            </Card>
+          </div>
+      
+        </div>
+      </div>
     </div>
   );
 }

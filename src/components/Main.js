@@ -2,9 +2,12 @@ import React from "react";
 function Main() {
   return (
     <div className="">
+      <center>
       <div class="d-flex justify-content-center mt-5" data-aos="fade-left">
         <img src="vidhu.jpg" width="150" height="150" className="profile" alt="vidhya"/>
       </div>
+        
+      </center>
 
       <div className="px-5 py-2 name text-center">
         <b
@@ -35,19 +38,6 @@ function Main() {
          text-white px-3 py-2"
         >
           envidhya99@gmail.com
-        </b>
-        <img
-          src="https://img.icons8.com/emoji/48/000000/telephone-receiver.png"
-          alt="phone"
-          width="30px"
-          height="30px"
-          className="px-2"
-        />
-        <b
-          className="
-         text-white px-3 ml-2"
-        >
-          9080729874
         </b>
 
         <a
