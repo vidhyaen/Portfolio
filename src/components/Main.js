@@ -27,13 +27,7 @@ function Main() {
       </div>
 
       <div className="px-5 py-3 container text-center">
-        <img
-          src="https://img.icons8.com/emoji/48/000000/envelope-with-arrow.png"
-          alt="email"
-          width="30px"
-          height="30px"
-        />
-        <b
+          <b
           className="
          text-white px-3 py-2"
         >

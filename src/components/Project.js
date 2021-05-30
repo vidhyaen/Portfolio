@@ -86,7 +86,7 @@ function Project() {
               <div className=" text-danger ">
                 <a
                   href="https://iopscience.iop.org/article/10.1088/1757-899X/1055/1/012092/meta"
-                  className=" text-dark text-dark mb-4 btn btn-secondary"
+                  className=" text-dark text-white mb-4 btn btn-secondary"
                   target="_blank"
                   rel="noreferrer"
                 >
