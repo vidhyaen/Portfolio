@@ -33,7 +33,8 @@ function Main() {
         
           <b
           className="
-         text-white px-3 py-2"
+         text-white px-2 py-2
+         "
         >
           envidhya99@gmail.com
         </b>
