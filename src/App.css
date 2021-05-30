@@ -14,7 +14,7 @@ h1 {
   font-family: "Ubuntu", sans-serif;
 }
 .card2 {
-  color: black;
+  color:white;
 }
 .App-header {
   background-color: #282c34;
@@ -43,7 +43,10 @@ h1 {
  /* For IE8 and earlier */
 
 }
-
+.gradient{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(68,114,168,1) 100%);
+}
 @media screen and (max-height: 450px) {
   .sidebar {
     padding-top: 15px;

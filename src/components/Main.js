@@ -1,5 +1,8 @@
 import React from "react";
+
+
 function Main() {
+  
   return (
     <div className="">
       <center>
@@ -27,12 +30,14 @@ function Main() {
       </div>
 
       <div className="px-5 py-3 container text-center">
+        
           <b
           className="
          text-white px-3 py-2"
         >
           envidhya99@gmail.com
         </b>
+        
 
         <a
           href="https://www.linkedin.com/in/vidhya-e-n-2585131b9/"
@@ -41,28 +46,20 @@ function Main() {
           rel="noreferrer"
           text="linkedin"
         >
-          <h4
-            className="
-         text-white"
-          >
-            <b>Linkedin</b>
-          </h4>
+        <img src="https://img.icons8.com/android/24/000000/linkedin.png" alt="linkedin" width="40px" height="40px" style={{backgroundColor:"white",color:"white"}}/>
         </a>
+       
         <a
           href="https://github.com/vidhyaen"
           className="text-white btn "
           target="_blank"
           rel="noreferrer"
-          text="linkedin"
+  
         >
-          <h4
-            className="
-         text-white"
-          >
-            <b>Github</b>
-          </h4>
-        </a>
+<img src="https://img.icons8.com/material-sharp/24/000000/github.png" alt="git" width="40px" height="40px" style={{backgroundColor:"white"}}/>
 
+
+      </a>
         <div></div>
       </div>
     </div>
